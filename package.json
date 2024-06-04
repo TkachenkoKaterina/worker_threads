@@ -1,0 +1,21 @@
+{
+  "name": "hash-combinations",
+  "version": "1.0.0",
+  "description": "Node App, Which makes 4 threads and divides the work of finding a hash combination equally for each thread",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "hash",
+    "combinations",
+    "worker-threads"
+  ],
+  "author": "Tkachenko Kateryna",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "worker-thread": "^1.1.0"
+  }
+}
